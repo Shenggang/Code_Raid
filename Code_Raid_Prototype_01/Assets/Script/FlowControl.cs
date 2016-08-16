@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class FlowControl : MonoBehaviour {
@@ -10,6 +11,6 @@ public class FlowControl : MonoBehaviour {
 
     public void LoadScene()
     {
-        Application.LoadLevel("tCombat01");
+        SceneManager.LoadScene("tCombat01");
     }
 }
